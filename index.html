@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<title>CSA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body id="myPage">
+
+
+<!-- Navbar -->blockquote
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-blue"><i class="fa fa-home w3-margin-right"></i>CSA</a>
+  <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Events</a>
+  <a href="#opportunities" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Opportunities</a>
+  <a href="#contactus" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact Us</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Other <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#newsletter" class="w3-bar-item w3-button">Newsletter</a>
+      <a href="#archive" class="w3-bar-item w3-button">Archive</a>
+    </div>
+  </div>
+</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">About</a>
+    <a href="#work" class="w3-bar-item w3-button">Events</a>
+    <a href="#opportunities" class="w3-bar-item w3-button">Opportunities</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="IMG_7227-1.JPG" alt="E-board" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-blue" title="Go To W3.CSS">Sign Up! </button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top" style="max-width:600px">
+    <header class="w3-container w3-blue w3-display-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Subscribe to our email List!</h4>
+      <h5>You won't regret it <i class="fa fa-smile-o"></i></h5>
+    </header>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1boc_A3fIJ07wBU2lTKCpkYWaEdoN3lY-sjLM_OvjHK4QKw/viewform?embedded=true" style="width:100%;min-height:350px;max-height:600px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-center" id="about">
+<h2>Who are we?</h2>
+<p>Comprising Fordham College Lincoln Center undergraduate students,
+   the Commuting Students Association is a branch of student government
+    that works closely with the Administration to accommodate commuter
+    students and to ensure representation and comfortability on campus.
+   We offer programming tailored to the needs and concerns of commuting
+    students in order to help foster involvement in the Fordham
+    community. </p>
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+  <img src="President.jpg" alt="President" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Hannah Kang</h3>
+  <p>President</p>
+</div>
+
+<div class="w3-third">
+  <img src="VP.jpg" alt="Vice President" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Frankie Osso</h3>
+  <p>Vice President</p>
+</div>
+
+<div class="w3-third">
+  <img src="Treasurer.jpg" alt="Treasurer" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Dora Or</h3>
+  <p>Treasurer</p>
+</div>
+
+<div class="w3-third">
+  <img src="image_handler.jpg" alt="Secratery" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Peter Cwalina</h3>
+  <p>Secratery</p>
+</div>
+
+  <div class="w3-third">
+    <img src="PC.jpg" alt="Programming Coordinator" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Katherine Lee</h3>
+    <p>Programming Coordinator</p>
+</div>
+
+<div class="w3-third">
+  <img src="AC.jpg" alt="Advertising Coordinator" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Mayra Guallpa</h3>
+  <p>Advertising Coordinator</p>
+</div>
+
+</div>
+<div class="w3-marw3-display-container w3-animate-opacity">
+  <div class="w3-container w3-center w3-margin-bottom">
+    <button class="w3-button w3-blue w3-padding-large" type="submit" onclick="window.open('CSA Constitution 2016.pdf')">Download the CSA Constitution</button>
+  </div>
+</div>
+</div>
+
+<!-- Events -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="events">
+
+<div class="w3-container w3-center">
+<h2>Events</h2>
+<p>We plan to provide virtual events for our commuter students, as well as prepared to transition into hybrid and normal in-person events.</p>
+</div>
+
+<div class="w3-third">
+<div class="w3-card w3-white">
+  <img src="2490994D-4908-4A8F-AC0B-F3A0F2E1DCE1.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>Game Night</h3>
+  <p>CSA’s Game Nights have garnered an infamous reputation for intense gameplay amongst students.</p>
+  <p>It’s a time where commuters can destress and play games with other students, giving them that informal space to de-stress and relax with others after a long day of school and other commitments. </p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card w3-white">
+  <img src="IMG_7274.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Coffee Break</h3>
+  <p>CSA sponsors three Coffee Breaks every semester, which provides commuters with a break from academic life and a chance to connect with other commuters. </p>
+  <p>We have good food and drinks, so that you can hang out and relax with your friends!</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card w3-white">
+  <img src="DCD55FC6-BD60-4148-A676-63211152B9B2.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>CSAW</h3>
+  <p>Every semester, we have one week of events with the purpose of celebrating our community-- the commuters! </p>
+  <p> We have giveaways, we have dinner outings, we have recreational activities, we have movie nights, you name it! Join us in the fun!</p>
+  </div>
+  </div>
+</div>
+<footer></footer>
+</div>
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="events">
+
+
+<div class="w3-container w3-center">
+<h2>Calendar</h2>
+<p>We plan to provide virtual events for our commuter students, as well as prepared to transition into hybrid and normal in-person events. To add this calendar to your account just click on the +Google Calendar button on the lower right corner. </p>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23039BE5&amp;ctz=America%2FNew_York&amp;src=Y19jMHVxdGIzaWF1OXNkdG4zYWl1bnZnaXRpZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23C0CA33"
+style="border:solid 1px #777" width="700" height="400" frameborder="0" scrolling="yes"></iframe>
+</div>
+</div>
+
+
+
+<!-- Opportunities -->
+<div class="w3-row-padding w3-center w3-padding-64" id="opportunities">
+    <h2>Opportunities</h2>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Senator Applications</p>
+        </li>
+        <li class="w3-padding-16">
+          <p>Become a Senator! Help us with various tasks for events (and get first dibs on food). After one semester of being a senator, you can apply to be an E-board member. Deadline is 10/05/20. Download the Senator Application below.</p>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-blue w3-padding-large" type="submit" onclick="window.open('Fall 2020 Senators Application.pdf')">Download</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">E-board Applications</p>
+        </li>
+        <li class="w3-padding-16">
+          <p>Want to help the commuter population at Fordham? Did you serve as a senator for a semester? Become an E-board member to help the Fordham community! Deadline is 10/05/20. Download the E-board Application below.</p>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-blue w3-padding-large" type="submit" onclick="window.open('CSA E-Board Application 2019-2020 (1).pdf')">Download</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Interships/Part-time Jobs</p>
+        </li>
+        <li class="w3-padding-16">
+          <p>Finding jobs as a commuter can be hard. Can’t find one on-campus? Here is a list of part time jobs and internships you can apply to around New York. Click on the link below for more information. Happy job hunting!</p>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <a href="https://docs.google.com/document/d/1nOwOSfAiCPr1683fJ97h0qHDsltv2ZQQzxpd1ax9sZw/edit?usp=sharing"><button class="w3-button w3-blue w3-padding-large" type="submit">Click Here</button></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Newsletter -->
+<div class="w3-container w3-row-padding w3-padding-64 w3-theme-l1 w3-center" id="newsletter">
+  <h2>Newsletter</h2>
+  <p>Every month we post a newsletter for our commuting student body
+     on all things commuter-related. If you would like to write/suggest
+      a piece to our newsletter, feel free to email us at
+      csalc@fordham.edu! </p>
+  <div class="w3-container w3-text-blue">
+    <p><a href="https://issuu.com/csalc/docs/csa_newsletter_2019-20_final?fbclid=IwAR2TFTf7ewIXfy____hhqQcNm2oE4Qv6cmAUThMmq3xCzkqdBqzPEuydG58">2019-2020 CSA Newsletter Recap</a></p>
+  </div>
+
+
+  </div>
+
+  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img id="img01" style="width:100%">
+    </div>
+  </div>
+
+
+
+
+</div>
+
+<!-- Archive -->
+<div class="w3-container w3-row-padding w3-padding-64 w3-center" id="archive">
+    <h2>Archive</h2>
+    <p>Gallery of Fordham commuters from the past to present!
+      Check out images of us at outings, events, and meetings!</p>
+    <div class="w3-container">
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-col s1" style="max-height:20px">
+        <img src="2490994D-4908-4A8F-AC0B-F3A0F2E1DCE1.JPG" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+      <div class="w3-col s1">
+        <img src="D991C15C-19D3-4727-87A2-C8F4B5723BBC.JPG" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+      <div class="w3-col s1">
+        <img src="DCD55FC6-BD60-4148-A676-63211152B9B2.JPG" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col s1">
+        <img src="IMG_6673.JPG" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+      <div class="w3-col s1">
+        <img src="IMG_7176.JPG" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+      <div class="w3-col s1">
+        <img src="IMG_7273.JPG" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col s1">
+        <img src="IMG_7274.JPG" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col s1">
+        <img src="Photo on 5-2-19 at 1.30 PM.jpg" style="width:100%;max-height:70px; min-height:70px;cursor:pointer"
+        onclick="onClick2(this)" class="w3-hover-opacity">
+      </div>
+
+    </div>
+
+    <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+      <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+      <div class="w3-modal-content w3-animate-zoom">
+        <img id="img02" style="width:100%">
+      </div>
+    </div>
+
+</div>
+
+<!-- Contact Us Container -->
+<div class="w3-container w3-padding-64 w3-theme-l1" id="contactus">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-blue w3-bottombar">Contact Us</span></div>
+      <h4><b>Room G29</b></h4>
+      <h5>140 W 62nd St., New York City, NY 10023</h5>
+      <p>Swing by our office!</p>
+      <p><i class="fa fa-map-marker w3-text-blue w3-xlarge"></i>  New York, US</p>
+      <p><i class="fa fa-phone w3-text-blue w3-xlarge"></i>  (347) 651-4965</p>
+      <p><i class="fa fa-envelope-o w3-text-blue w3-xlarge"></i>  csalc@fordham.edu</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white w3-center" action="/action_page.php" target="_blank">
+      <div class="w3-section">
+      <h5 style="background-color:DodgerBlue;"><b>Office Hours</b></h5>
+      </div>
+      <div class="w3-section">
+        <p><b>Monday</b></p>
+        <p>Dora Or (11:30 am - 12:30 pm)</p>
+        <p>Hannah Kang (1:00 pm - 2:00 pm)</p>
+        <p><b>Tuesday</b></p>
+        <p>Mayra Guallpa (2:30 pm - 3:45 pm)</p>
+        <p><b>Wednesday</b></p>
+        <p>Katherine Lee (11:30 am - 12:30 pm)</p>
+        <p><b>Thursday</b></p>
+        <p>General meetings!! (11:30 am - 12:30 pm)</p>
+        <p><b>Friday</b></p>
+        <p>Frankie Osso (4:00 pm - 5:00 pm)</p>
+        <p></p>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="image should go here!" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <footer class="w3-container w3-theme-d1 w3-center">
+  <a class="w3-button w3-large w3-blue w3-center" href="https://www.facebook.com/CSAatLC/?utm_source=CSA+2018-19&utm_campaign=5cda1c53a3-EMAIL_CAMPAIGN_2019_10_22_05_07_COPY_01&utm_medium=email&utm_term=0_fda322c8c7-5cda1c53a3-236542269" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-blue w3-center" href="https://twitter.com/csaatlc" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-blue w3-center" href="https://www.instagram.com/csa_lc/?utm_source=CSA+2018-19&utm_campaign=5cda1c53a3-EMAIL_CAMPAIGN_2019_10_22_05_07_COPY_01&utm_medium=email&utm_term=0_fda322c8c7-5cda1c53a3-236542269" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-blue w3-hide-small w3-center" href="https://www.linkedin.com/organization-guest/company/csalc?challengeId=AQH40vmG6tERngAAAXOl1tv1Q-k5DFKi6nBMQzuIVvI90aYhQuVu42pkvUmyQj6bsvGdO4SseIJYIyT6QAk8eJnPEIUzh__qSQ&submissionId=a3aeabb4-41e5-2616-fa8e-3cc5e7fc5b16" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+</footer>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-blue w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+//slideshow
+function onClick1(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
+function onClick2(element) {
+  document.getElementById("img02").src = element.src;
+  document.getElementById("modal02").style.display = "block";
+}
+
+</script>
+
+</body>
+</html>
